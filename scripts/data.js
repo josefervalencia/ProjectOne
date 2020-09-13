@@ -3,7 +3,7 @@
 // Utilizamos fechas dinámicas para que la aplicación siempre muestre un rango de días entre la fecha actual y el futuro.
 
 const today = new Date()
-const hotelsData = [
+ export const hotelsData = [
   {
     slug: 'la-bamba-de-areco',
     name: 'La Bamba de Areco',
@@ -221,4 +221,3 @@ const hotelsData = [
     price: 1
   }
 ]
-export default data;
